@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+</head>
+<style>
+    .Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    button{
+        cursor: crosshair;
+    }
+    .buttonClick{
+        background-color: rgb(72, 72, 227);
+        color: white;
+        width: 200px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: medium;
+        border: 0;
+
+    }
+</style>
+<body>
+    <div class="Container">
+        <h1 class="heading">Click the button</h1>
+        <button id="button" class="buttonClick">Click me</button>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
