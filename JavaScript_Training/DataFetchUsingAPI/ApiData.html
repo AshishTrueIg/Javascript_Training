@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #fetch-btn{
+        background-color: rgb(72, 72, 227);
+        color: white;
+        width: 200px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: medium;
+        border: 0;
+
+    }
+
+    #user-info{
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+
+    <div class="Container">
+        <h2>Fetch Random User Data</h2>
+        <button id="fetch-btn">Fetch User</button>
+        <div id="user-info"></div>
+    </div>
+
+    <script src="ApiData.js"></script>
+</body>
+</html>
